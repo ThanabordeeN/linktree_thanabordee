@@ -4,8 +4,6 @@ import { Button } from "./ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
-import logo_image from "../components/clop.jpg"
-
 export default function CustomLogoLinkInBioComponent() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
 
@@ -91,7 +89,7 @@ export default function CustomLogoLinkInBioComponent() {
             <div className="relative w-34 h-34">
               <div className="absolute inset-0 bg-gradient-to-r from-gray-500 to-gray-700 rounded-full animate-pulse"></div>
               <Image
-                src={logo_image}
+                src="/clop.jpg"
                 alt="Profile Picture"
                 width={256}
                 height={256}

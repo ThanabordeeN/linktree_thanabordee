@@ -1,0 +1,9 @@
+name = "linktree"
+type = "typescript"
+account_id = "c2cc5694fce3f00cabd33c7701de0a59"
+workers_dev = true
+compatibility_date = "2023-10-01"
+main = "./src/pages/index.tsx"
+
+[env.production]
+name = "linktree-production"
