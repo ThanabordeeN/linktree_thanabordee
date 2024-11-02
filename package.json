@@ -11,6 +11,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
+    "linktree": "file:",
     "next": "^14.2.15",
     "next-images": "^1.8.5",
     "react": "^18",
